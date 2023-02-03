@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Record Form</title>
+  </head>
+
+  <body>
+    <form id="form" action="">
+      <h1>Add Record</h1>
+
+      <div id="">
+        <label for="location">Location :</label><br /><br />
+        <input
+          style="width: 215px; height: 30px"
+          type="text"
+          name="location"
+          id="loca"
+        />
+      </div>
+
+      <div id="">
+        <br />
+        <label for="locationdesc">Location Description :</label><br /><br />
+        <textarea
+          name="location_description"
+          id="loc_desc"
+          cols="25"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+
+      <div id="">
+        <label for="status">Status :</label><br />
+        <input type="radio" name="status" value="Active" id="" />
+        <label for="active">Active</label>
+        <input type="radio" name="status" value="Inactive" id="" />
+        <label for="inactive">Inactive</label>
+      </div>
+      <br />
+
+      <div id="">
+        <input type="submit" value="Add" onsubmit="" />
+      </div>
+    </form>
+  </body>
+</html>
